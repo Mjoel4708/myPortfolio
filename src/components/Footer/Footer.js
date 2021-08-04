@@ -1,8 +1,23 @@
-import React from 'react';
-import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
+import React from "react";
+import {
+  AiFillGithub,
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+} from "react-icons/ai";
+import { FaKaggle } from "react-icons/fa";
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SocialIcons } from "../Header/HeaderStyles";
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -14,9 +29,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mjoel4708@gmail.com">
-            mjoel4708@gmail.com
-          </LinkItem>
+          <LinkItem href="mjoel4708@gmail.com">mjoel4708@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -30,8 +43,8 @@ const Footer = () => {
           <SocialIcons href="https://www.linkedin.com/in/michael-orwa-950102161/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="">
-            <AiFillTwitterCircle size="3rem" />
+          <SocialIcons href="https://www.kaggle.com/orwamichael/code">
+            <FaKaggle size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

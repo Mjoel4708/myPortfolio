@@ -32,7 +32,7 @@ const Technologies = () =>  (
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
             Maria DB <br />
-            Mango DB <br />
+            Mongo DB <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
