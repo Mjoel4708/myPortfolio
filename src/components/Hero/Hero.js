@@ -13,7 +13,7 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        Hi there! I'm a web developer based in Kenya. I'm currently working as a Part time Full Stack Developer at Kenya Power and Lightning company.   <br />
+        Hi there! I'm a web developer based in Kenya. I'm currently working as a Part time Full Stack Developer.   <br />
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
