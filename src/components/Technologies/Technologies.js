@@ -20,7 +20,10 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with  <br />
-            React.js
+            React.js <br />
+            Angular <br />
+            Vue js <br />
+            Twig <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,6 +35,7 @@ const Technologies = () =>  (
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
             Maria DB <br />
+            Mysql <br />
             Mongo DB <br />
           </ListParagraph>
         </ListContainer>
@@ -44,6 +48,9 @@ const Technologies = () =>  (
           <ListTitle>Cloud</ListTitle>
           <ListParagraph>
             AWS <br />
+            Digital Ocean <br />
+            Azure <br />
+            Firebase <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

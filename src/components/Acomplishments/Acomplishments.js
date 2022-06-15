@@ -7,7 +7,7 @@ const data = [
   { number: 8, text: 'Certifications'},
   { number: 1, text: 'International award', },
   { number: 6, text: 'Progrogramming languages', },
-  { number: 5000, text: 'Repositories', }
+  { number: 23, text: 'Repositories', }
 ];
 
 const Acomplishments = () => (
