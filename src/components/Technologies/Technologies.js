@@ -37,6 +37,8 @@ const Technologies = () =>  (
             Maria DB <br />
             Mysql <br />
             Mongo DB <br />
+            Nginx <br />
+            Apache <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

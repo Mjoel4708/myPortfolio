@@ -19,7 +19,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
@@ -46,7 +46,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        I am a Software Developer 23 years old. I am qualified to create an internet presence for your business.
+        I am able to construct a platform for your audience to interact with your business using these talents and technology
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
