@@ -11,8 +11,8 @@ export const projects = [
   {
     title: 'E-Commerce',
     description: "Contributed to the development of an e-commerce platform. The platform is built using shopware 6 and vue js. I was responsible for the development of the frontend and the backend of the platform.",
-    tags: ['PHP', 'Symfony', 'twig', 'Vue js', 'Docker', 'Shopware 6', 'MySQL'],
     image: '/images/dealfit.png',
+    tags: ['PHP', 'Symfony', 'twig', 'Vue js', 'Docker', 'Shopware 6', 'MySQL'],
     source: 'https://dealfit.co.ke/',
     visit: 'https://dealfit.co.ke/',
     id: 1,
