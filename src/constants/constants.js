@@ -12,7 +12,7 @@ export const projects = [
     title: 'E-Commerce',
     description: "Contributed to the development of an e-commerce platform. The platform is built using shopware 6 and vue js. I was responsible for the development of the frontend and the backend of the platform.",
     image: '/images/dealfit.png',
-    tags: ['PHP', 'Symfony', 'twig', 'Vue js', 'Docker', 'Shopware 6', 'MySQL'],
+    tags: ['Symfony', 'Docker', 'Shopware 6', 'Digital Ocean'],
     source: 'https://dealfit.co.ke/',
     visit: 'https://dealfit.co.ke/',
     id: 1,
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'K-Pay payment gateway',
     description: "Developed a payment gateway for the k-pay payment system. The payment gateway is built using laravel and the mpesa rest api. The payment gateway allows users to make payments using the mpesa payment system.",
-    tags: ['PHP', 'Laravel 9','Blade Templates', 'Docker', 'Rest API', 'MySQL', 'Mpesa', 'Safaricom'],
+    tags: ['PHP', 'Laravel 9', 'Blade', 'Docker', 'Rest API', 'MySQL', 'Mpesa'],
     image: '/images/Daraja-Portal.png',
     source: 'https://github.com/Mjoel4708/k-pay',
     visit: 'https://github.com/Mjoel4708/k-pay',
