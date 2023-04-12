@@ -17,32 +17,33 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Blockchain procurement system',
-    description: "Took part in a hackathon where we developed a blockchain procurement system. The system is built using react and solidity. The system allows users to create a request for a product and the system will automatically find the best supplier for the product.",
-    image: '/images/blockchain.jpg',
-    tags: ['React', 'Solidity'],
-    source: 'https://github.com/Mjoel4708/Blockchain-procurement-DAPP',
-    visit: 'https://github.com/Mjoel4708/Blockchain-procurement-DAPP',
-    id: 2,
-  },
-  {
     title: 'HRD first responders app',
     description: "Contributed to the development of an app that allows first responders to report incidents and get help from other first responders. The app is built using react native and firebase. The app also uses the chat engine stream api to allow users to chat with each other.",
     image: '/images/hdrscreenshot.png',
     tags: ['React Native', 'ChatEngine(Stream API)', 'Firebase', 'MapView'],
     source: 'https://play.google.com/store/apps/details?id=com.enjuguna.hrdinnovationforchange',
     visit: 'https://play.google.com/store/apps/details?id=com.enjuguna.hrdinnovationforchange',
-    id: 3,
+    id: 2,
   },
   {
     title: 'K-Pay payment gateway',
     description: "Developed a payment gateway for the k-pay payment system. The payment gateway is built using laravel and the mpesa rest api. The payment gateway allows users to make payments using the mpesa payment system.",
     image: '/images/Daraja-Portal.png',
-    tags: ['PHP', 'Laravel 9','Blade Templates', 'Docker', 'Rest API', 'MySQL', 'Mpesa', 'Safaricom'],
+    tags: ['PHP', 'Laravel 9','Blade', 'Docker', 'Rest API', 'MySQL'],
     source: 'https://github.com/Mjoel4708/k-pay',
     visit: 'https://github.com/Mjoel4708/k-pay',
-    id: 1,
+    id: 3,
   },
+  {
+    title: 'Blockchain procurement system',
+    description: "Took part in a hackathon where we developed a blockchain procurement system. The system is built using react and solidity. The system allows users to create a request for a product and the system will automatically find the best supplier for the product.",
+    image: '/images/blockchain.jpg',
+    tags: ['React', 'Solidity'],
+    source: 'https://github.com/Mjoel4708/Blockchain-procurement-DAPP',
+    visit: 'https://github.com/Mjoel4708/Blockchain-procurement-DAPP',
+    id: 4,
+  },
+  
 ];
 
 export const TimeLineData = [
