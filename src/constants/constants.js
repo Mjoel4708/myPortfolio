@@ -12,27 +12,10 @@ export const projects = [
     title: 'E-Commerce',
     description: "Contributed to the development of an e-commerce platform. The platform is built using shopware 6 and vue js. I was responsible for the development of the frontend and the backend of the platform.",
     tags: ['PHP', 'Symfony', 'twig', 'Vue js', 'Docker', 'Shopware 6', 'MySQL'],
+    image: '/images/dealfit.png',
     source: 'https://dealfit.co.ke/',
     visit: 'https://dealfit.co.ke/',
     id: 1,
-  },
-  {
-    title: 'HRD first responders app',
-    description: "Contributed to the development of an app that allows first responders to report incidents and get help from other first responders. The app is built using react native and firebase. The app also uses the chat engine stream api to allow users to chat with each other.",
-    image: '/images/hdrscreenshot.png',
-    tags: ['React Native', 'ChatEngine(Stream API)', 'Firebase', 'MapView'],
-    source: 'https://play.google.com/store/apps/details?id=com.enjuguna.hrdinnovationforchange',
-    visit: 'https://play.google.com/store/apps/details?id=com.enjuguna.hrdinnovationforchange',
-    id: 2,
-  },
-  {
-    title: 'K-Pay payment gateway',
-    description: "Developed a payment gateway for the k-pay payment system. The payment gateway is built using laravel and the mpesa rest api. The payment gateway allows users to make payments using the mpesa payment system.",
-    image: '/images/Daraja-Portal.png',
-    tags: ['PHP', 'Laravel 9','Blade', 'Docker', 'Rest API', 'MySQL'],
-    source: 'https://github.com/Mjoel4708/k-pay',
-    visit: 'https://github.com/Mjoel4708/k-pay',
-    id: 3,
   },
   {
     title: 'Blockchain procurement system',
@@ -41,14 +24,23 @@ export const projects = [
     tags: ['React', 'Solidity'],
     source: 'https://github.com/Mjoel4708/Blockchain-procurement-DAPP',
     visit: 'https://github.com/Mjoel4708/Blockchain-procurement-DAPP',
-    id: 4,
+    id: 2,
   },
-  
-];
-
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey back in campus', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2021, text: 'Joined Kenya Power and Lighting Company as a Software Developer Intern', },
-  { year: 2021, text: 'Joined Kamsware LTD as a Fullstack Developer', },
+  {
+    title: 'HRD first responders app',
+    description: "Contributed to the development of an app that allows first responders to report incidents and get help from other first responders. The app is built using react native and firebase. The app also uses the chat engine stream api to allow users to chat with each other.",
+    image: '/images/hdrscreenshot.png',
+    tags: ['React Native', 'ChatEngine(Stream API)', 'Firebase', 'MapView'],
+    source: 'https://play.google.com/store/apps/details?id=com.enjuguna.hrdinnovationforchange',
+    visit: 'https://play.google.com/store/apps/details?id=com.enjuguna.hrdinnovationforchange',
+    id: 3,
+  },
+  {
+    title: 'K-Pay payment gateway',
+    description: "Developed a payment gateway for the k-pay payment system. The payment gateway is built using laravel and the mpesa rest api. The payment gateway allows users to make payments using the mpesa payment system.",
+    tags: ['PHP', 'Laravel 9','Blade Templates', 'Docker', 'Rest API', 'MySQL', 'Mpesa', 'Safaricom'],
+    source: 'https://github.com/Mjoel4708/k-pay',
+    visit: 'https://github.com/Mjoel4708/k-pay',
+    id: 1,
+  },
 ];
