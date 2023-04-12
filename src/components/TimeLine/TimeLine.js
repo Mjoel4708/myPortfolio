@@ -46,8 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a Software Developer 23 years old. I am qualified to create an internet presence for your business.
-        I am able to construct a platform for your audience to interact with your business using these talents and technology
+      Hello, my name is Michael Ochieng Orwa, and I'm a full-stack software developer with three years of experience in web and mobile application development.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

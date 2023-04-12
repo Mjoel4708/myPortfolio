@@ -13,7 +13,7 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        Hi there! I'm a web developer based in Kenya. I'm currently working as a Part time Full Stack Developer.   <br />
+        I'm a seasoned full-stack developer with diverse experience in both technical and non-technical aspects of the field. I'm constantly seeking to push beyond the norm and thrive on innovative thinking. My passion for innovation and dynamic skill set makes me confident that I can add value to any team and drive success in your organisation.   <br />
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
