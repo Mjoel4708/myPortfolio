@@ -45,3 +45,10 @@ export const projects = [
     id: 4,
   },
 ];
+
+export const TimeLineData = [
+  { year: 2017, text: 'Started my journey back in campus', },
+  { year: 2018, text: 'Worked as a freelance developer', },
+  { year: 2021, text: 'Joined Kenya Power and Lighting Company as a Software Developer Intern', },
+  { year: 2021, text: 'Joined Kamsware LTD as a Fullstack Developer', },
+];
